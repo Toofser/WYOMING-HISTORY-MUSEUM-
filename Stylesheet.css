@@ -1,0 +1,105 @@
+body{
+  background-color: palegoldenrod;
+}
+p{
+  color: goldenrod;
+  text-align: center;
+  border-bottom: 1px solid #ffa200;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  font-size: 25px;
+}
+.nounderline{
+  color: goldenrod;
+  text-align: center;
+   font-size: 25px;
+  border-bottom: 1px solid palegoldenrod;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+.bigtitle{
+  font-size: 35px;
+}
+.bigtext{
+  font-size: 25px;
+}
+.noncenter{
+  text-align:left;
+  margin: 40px;
+  color: goldenrod;
+  font-size: 25px;
+  border-bottom: 1px solid palegoldenrod;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+}
+div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.row{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.columns{
+  flex-direction: column;
+  justify-content: space-around;
+}
+a{
+  color: darkgoldenrod;
+  font-size: 25px;
+}
+.center{
+  text-align: center;
+  
+}
+.homebar{
+  background-color: #eeb853;
+    display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+h2{
+  color: darkgoldenrod;
+  text-align: center;
+  font-size: 35px;
+}
+
+img{
+  width: 350px;
+  display: block; 
+  margin-left: auto; 
+  margin-right: auto; 
+ 
+}
+h1{
+  text-align: center;
+  color: darkgoldenrod;
+}
+
+.backgroundimage{
+ background-image: url("square-old-hotel2.png"); /* Set the image as the background */
+  font-size: 40px;
+  height: 40%;
+  background-size: cover; 
+  background-position: bottom; 
+  color: #966522;
+  padding: 60px;
+   width: 90%;
+  font-size: 45px;
+  text-shadow: -2px -2px white;
+  text-shadow: 2px  2px white;
+  text-shadow: -2px 2px white;
+  text-shadow: 2px -2px white; 
+  
+}
+
+.locked-size{
+   max-width: 300px;
+}
