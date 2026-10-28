@@ -47,7 +47,7 @@ div{
   align-items: center;
 }
 .columns{
-display: flex;
+  display: flex;
   flex-direction: row; /* Changed to row to line up images and text horizontally */
   justify-content: center; /* Center items horizontally */
   align-items: center; /* Center items vertically */
