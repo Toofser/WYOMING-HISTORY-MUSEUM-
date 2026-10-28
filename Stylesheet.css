@@ -47,11 +47,8 @@ div{
   align-items: center;
 }
 .columns{
-display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
 }
 a{
   color: darkgoldenrod;
@@ -62,7 +59,6 @@ a{
   
 }
 .homebar{
-  background-color: #eeb853;
     display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -104,5 +100,5 @@ h1{
 }
 
 .locked-size{
-   max-width: 600px
+   max-width: 600px;
 }
