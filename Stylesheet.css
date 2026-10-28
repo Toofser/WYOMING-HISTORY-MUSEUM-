@@ -47,8 +47,12 @@ div{
   align-items: center;
 }
 .columns{
-  flex-direction: column;
-  justify-content: space-around;
+display: flex;
+  flex-direction: row; /* Changed to row to line up images and text horizontally */
+  justify-content: center; /* Center items horizontally */
+  align-items: center; /* Center items vertically */
+  flex-wrap: wrap;
+  margin-bottom: 2rem; /* Add some space below each column set */
 }
 a{
   color: darkgoldenrod;
