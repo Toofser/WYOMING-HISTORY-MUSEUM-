@@ -105,8 +105,12 @@ h1{
 .right{
   align-self: left;
   order: -1;
+    border-radius: 10px;
+  margin: 10px;
 }
 .left{
   align-self: right;
   order: 1;
+    border-radius: 10px;
+  margin: 10px;
 }
