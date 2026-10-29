@@ -37,13 +37,13 @@ div{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  flex-wrap: wrap;
+
 }
 .row{
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  flex-wrap: wrap;
+ 
   align-items: center;
 }
 .columns{
@@ -51,7 +51,6 @@ div{
   flex-direction: row; /* Changed to row to line up images and text horizontally */
   justify-content: center; /* Center items horizontally */
   align-items: center; /* Center items vertically */
-  flex-wrap: wrap;
   margin-bottom: 2rem; /* Add some space below each column set */
 }
 a{
@@ -103,6 +102,11 @@ h1{
   
 }
 
-.locked-size{
-   max-width: 400px;
+.right{
+  align-self: left;
+  order: -1;
+}
+.left{
+  align-self: right;
+  order: 1;
 }
