@@ -16,6 +16,7 @@ p{
   border-bottom: 1px solid palegoldenrod;
   padding-bottom: 1rem;
   margin-bottom: 1rem;
+  margin: 20px;
 }
 .bigtitle{
   font-size: 35px;
@@ -83,7 +84,7 @@ img{
 h1{
   text-align: center;
   color: darkgoldenrod;
-  margin: 10px;
+  margin: 20px;
 }
 
 .backgroundimage{
