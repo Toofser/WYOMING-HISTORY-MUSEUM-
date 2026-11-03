@@ -1,6 +1,9 @@
 body{
   background-color: palegoldenrod;
 }
+video{
+  margin: 20px;
+}
 p{
   color: goldenrod;
   text-align: center;
