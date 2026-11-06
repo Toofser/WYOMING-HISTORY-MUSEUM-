@@ -59,7 +59,8 @@ div{
 }
 a{
   color: darkgoldenrod;
-  font-size: 25px;
+  font-size: 20px;
+
 }
 .center{
   text-align: center;
@@ -118,4 +119,14 @@ h1{
   order: 1;
     border-radius: 10px;
   margin: 10px;
+  color:darkgoldenrod;
+}
+.right_round{
+  align-self: left;
+  order: -1;
+    border-radius:100px;
+  margin: 10px;
+}
+.fancy{
+font-family: 'Alex Brush', cursive;
 }
