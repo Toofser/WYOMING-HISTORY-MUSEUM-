@@ -17,35 +17,6 @@ p{
   font-size: 25px;
   font-family: 'Gloria Hallelujah';
 }
-div{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-a{
-  color: darkgoldenrod;
-  font-size: 20px;
-}
-h2{
-  color: darkgoldenrod;
-  text-align: center;
-  font-size: 35px;
-}
-
-img{
-  width: 350px;
-  display: block; 
-  margin-left: auto; 
-  margin-right: auto; 
- 
-}
-h1{
-  text-align: center;
-  color: darkgoldenrod;
-  margin: 20px;
-}
-
-/*classes*/
 .nounderline{
   color: goldenrod;
   text-align: center;
@@ -70,7 +41,13 @@ h1{
   padding-bottom: 1rem;
   margin-bottom: 1rem;
 }
+}
+div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 
+}
 .row{
   display: flex;
   flex-direction: column;
@@ -85,9 +62,11 @@ h1{
   align-items: center; /* Center items vertically */
   margin-bottom: 2rem; /* Add some space below each column set */
 }
+a{
+  color: darkgoldenrod;
+  font-size: 20px;
 
-
-
+}
 .center{
   text-align: center;
   
@@ -98,6 +77,24 @@ h1{
   flex-wrap: wrap;
 }
 
+h2{
+  color: darkgoldenrod;
+  text-align: center;
+  font-size: 35px;
+}
+
+img{
+  width: 350px;
+  display: block; 
+  margin-left: auto; 
+  margin-right: auto; 
+ 
+}
+h1{
+  text-align: center;
+  color: darkgoldenrod;
+  margin: 20px;
+}
 
 .backgroundimage{
  background-image: url("square-old-hotel2.png"); /* Set the image as the background */
@@ -132,7 +129,7 @@ h1{
 .right_round{
   align-self: left;
   order: -1;
-    border-radius:150px;
+    border-radius:100px;
   margin: 10px;
 }
 .fancy{
